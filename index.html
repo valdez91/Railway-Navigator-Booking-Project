@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form-group">
+            <h1 class="text-center">Railway Booking Form</h1>
+            <div id="form">
+                <h3 class="text-white">Booking Details</h3>
+                <div id="input">
+                    <input type="text" id="input-group" placeholder="From">
+                    <input type="text" id="input-group" placeholder="To">
+                    <input type="text" id="input-group" placeholder="Departure Date">
+
+                    <select id="input-group" style="background: black;">
+                        <option value="">Preffered Station</option>
+                        <option value="">Antwerp-Central</option>
+                        <option value="">Antwerp-Berchem</option>
+                        <option value="">Antwerp-South</option>
+                        <option value="">Beveren</option>
+                        <option value="">Sint-Niklaas</option>
+                        <option value="">Lokeren</option>
+                        <option value="">Ghent-Dampoort</option>
+                        <option value="">Ghent-Sint-Pieters</option>
+                        <option value="">Brugge</option>
+                        <option value="">Oostende</option>
+
+                    </select>
+                    <select id="input-group"  style="background: black;">
+                        <option value="">Preffered Seating</option>
+                        <option value="">Economy</option>
+                        <option value="">Business Class</option>
+                        <option value="">First Class</option>
+                    </select>
+                </div>
+                <div id="input2">
+                    <input type="number" id="input-group" placeholder="Adult">
+                    <input type="number" id="input-group" placeholder="Children(2-11years)">
+                    <input type="number" id="input-group" placeholder="infant(under 2years)">
+                </div>
+
+                <div id="input3">
+                    <span id="input-group" class="text-primary">Select Your Fare</span>
+                    <input type="radio" name="fare" id="input-group">
+                    <label class="text-white" for="input-group">One Way</label>
+                    <input type="radio" name="fare" id="input-group">
+                    <label class="text-white" for="input-group">Return</label>
+                </div>
+                <div id="input4">
+                    <input type="text" id="input-group" placeholder="Return Date">
+                    <input type="text" id="input-group" placeholder="Return time">
+                    <input type="text" id="input-group" placeholder="Any Message">
+                </div>
+                <div id="input5">
+                    <h3 class="text-white">Personal Details</h3>
+                </div>
+                <div id="input6">
+                    <input type="text" id="input-group" placeholder="Full Name">
+                    <input type="text" id="input-group" placeholder="Phone Number">
+                    <input type="text" id="input-group" placeholder="Email">
+                </div>
+                <button type="submit" id="btn">Submit Form</button>
+                <button type="reset" id="btn">Clear Form</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="./src/mains.js"></script>
+</body>
+</html>

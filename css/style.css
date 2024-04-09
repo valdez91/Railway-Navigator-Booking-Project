@@ -1,0 +1,102 @@
+body {
+    background-image: url('../images/railway-7860168_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #faebfa;
+  }
+  #form{
+    background-color: #000;
+    height:500px;
+    width: 700px;
+    margin: auto;
+     padding:20px;
+     opacity: 0.7;
+  }
+  #form h3 {
+    border-bottom: 2px solid #3399ff;
+    width: 200px;
+    padding: 5px;
+  }
+  ::placeholder {
+      color:#faebfa ;
+  }
+  #input #input-group {
+    margin: 5px;
+    width: 300px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #faebfa;
+  }
+  #input2 #input-group {
+    width: 195px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #faebfa;
+  }
+#input3 #input-group {
+    margin-left: 50px;
+}
+#input4 #input-group {
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #faebfa;
+}
+#input4 #input-group1 {
+    width: 615px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #faebfa;
+}
+#input5 #input-group {
+    border-bottom: 2px solid #3399ff;
+    width: 200px;
+    padding: 5px;
+}
+#input6 #input-group {
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #faebfa;
+}
+#input6 #input-group1 {
+    width: 615px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    background: transparent;
+    color: #faebfa;
+}
+#btn {
+    background-color: #5833ff;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
