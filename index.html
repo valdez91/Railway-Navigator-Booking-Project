@@ -4,21 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Links to the external CSS file  -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+<!-- Contains the main content of the page -->
     <div class="container">
+        <!-- Defines a form for user input -->
         <form class="form-group">
-            <h1 class="text-center">Railway Booking Form</h1>
-            <div id="form">
+            <h1 class="text-center" id="top-header">RAILWAY BOOKING APPLICATION</h1>
+<!-- Contains the train information and stops  -->
+            <div id="container">
+                <div id="info">
+                    <h1>Train Information</h1>
+                    <button id="viewTrainInfoButton">View Info</button>
+                    <p id="trainName"></p>
+                    <p id="timestamp"></p>
+                </div>
+                <!-- Contains the train information and stops  -->
+                <div class="stations">
+                    <h2 id="stationsHeader" class="stations-header">Active Stations</h2>
+                    <ul class="ui list" id="stations-list">
+                        <li class="stationList">Active stations</li>
+                    </ul>
+                </div>
+                <!-- Contains the train information and stops  -->
+                <div class="Con-table">
+                    <h2 id="stopsHeader">Check Available Stops</h2>
+                <table id="stops">
+                    <thead>
+                        <tr>
+                            <th>Station</th>
+                            <th>Date & Time</th>
+                            <th>Delay</th>
+                            <th>Platform</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                </div>
+            <!-- Contains the form for user input -->
+            <div id="form" >
+                <!-- Displays the booking details header -->
                 <h3 class="text-white">Booking Details</h3>
                 <div id="input">
-                    <input type="text" id="input-group" placeholder="From">
-                    <input type="text" id="input-group" placeholder="To">
-                    <input type="text" id="input-group" placeholder="Departure Date">
-
-                    <select id="input-group" style="background: black;">
-                        <option value="">Preffered Station</option>
+                    <select id="input-group" class="station" style="background: black;">
+                        <option value="">From</option>
                         <option value="">Antwerp-Central</option>
                         <option value="">Antwerp-Berchem</option>
                         <option value="">Antwerp-South</option>
@@ -31,6 +62,27 @@
                         <option value="">Oostende</option>
 
                     </select>
+                    <!-- Defines the select element for the to station  -->
+                    <select id="input-group" class="station" style="background: black;">
+                        <option value="">To</option>
+                        <option value="">Antwerp-Central</option>
+                        <option value="">Antwerp-Berchem</option>
+                        <option value="">Antwerp-South</option>
+                        <option value="">Beveren</option>
+                        <option value="">Sint-Niklaas</option>
+                        <option value="">Lokeren</option>
+                        <option value="">Ghent-Dampoort</option>
+                        <option value="">Ghent-Sint-Pieters</option>
+                        <option value="">Brugge</option>
+                        <option value="">Oostende</option>
+
+                    </select>
+                    
+        
+                    <input type="text" id="input-group" class="date" placeholder="Departure Date">
+                    <input type="text" id="input-group" class="time" placeholder="Departure Time">
+
+                    
                     <select id="input-group"  style="background: black;">
                         <option value="">Preffered Seating</option>
                         <option value="">Economy</option>
@@ -52,8 +104,9 @@
                     <label class="text-white" for="input-group">Return</label>
                 </div>
                 <div id="input4">
-                    <input type="text" id="input-group" placeholder="Return Date">
-                    <input type="text" id="input-group" placeholder="Return time">
+                    
+                    <input type="date" id="input-group" placeholder="Return Date" >
+                    <input type="date" id="input-group" placeholder="Return time" >
                     <input type="text" id="input-group" placeholder="Any Message">
                 </div>
                 <div id="input5">
@@ -65,12 +118,13 @@
                     <input type="text" id="input-group" placeholder="Email">
                 </div>
                 <button type="submit" id="btn">Submit Form</button>
-                <button type="reset" id="btn">Clear Form</button>
+                <button type="reset" id="btn2">Clear Form</button>
             </div>
             
         </form>
     </div>
-
+</div>
+<!-- Links to the external JavaScript file -->
     <script src="./src/mains.js"></script>
 </body>
 </html>
