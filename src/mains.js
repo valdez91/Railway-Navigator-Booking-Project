@@ -8,8 +8,8 @@ document.getElementById('stopsHeader').addEventListener('click', function() {
   }
 });
 
-// Add a click event listener to the 'viewTrainInfoButton' element
-document.getElementById('viewTrainInfoButton').addEventListener('click', function() {
+// Add a mouseover event listener to the 'viewTrainInfoButton' element
+document.getElementById('viewTrainInfoButton').addEventListener('mouseover', function() {
   const trainName = document.getElementById('trainName');
   const timestamp = document.getElementById('timestamp');
 
